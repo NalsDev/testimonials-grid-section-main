@@ -5,4 +5,31 @@
 body{
   margin:0px;
   padding:0px;
+  background-color: hsl(210, 46%, 95%)
+}
+
+.test1-class, .test2-class, .test4-class{
+  color:white;
+}
+
+.test3-class, .test5-class{
+
+}
+
+.test1-class{
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+}
+
+.test2-class{
+  background-color: hsl(217, 19%, 35%);
+}
+
+.test3-class, .test5-class{
+  background-color: hsl(0, 0%, 100%);
+}
+
+.test4-class{
+  background-color: hsl(219, 29%, 14%);
 }
