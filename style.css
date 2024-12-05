@@ -12,10 +12,6 @@ body{
   color:white;
 }
 
-.test3-class, .test5-class{
-
-}
-
 .test1-class{
   background-color: hsl(263, 55%, 52%);
   background-image: url(images/bg-pattern-quotation.svg);
@@ -33,4 +29,10 @@ body{
 
 .test4-class{
   background-color: hsl(219, 29%, 14%);
+}
+
+.image-class{
+  height:25px;
+  width:25px;
+  border-radius:50%;
 }
