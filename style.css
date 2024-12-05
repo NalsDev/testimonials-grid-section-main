@@ -35,10 +35,16 @@ body{
   background-color: hsl(219, 29%, 14%);
 }
 
+.test1-class, .test2-class, .test3-class, .test4-class, .test5-class{
+  padding:25px 35px;
+  border-radius:8px;
+}
+
 .image-class{
   height:30px;
   width:30px;
   border-radius:50%;
+  margin-right:10px;
 }
 
 .info-class{
@@ -49,7 +55,7 @@ body{
 }
 
 h5,h6{
-  margin:5px;
+  margin:3px;
   font-weight:500;
 }
 
@@ -59,5 +65,15 @@ h6{
 
 .review-class{
   opacity: 70%;
+  line-height:1.5;
 }
 
+.stat-class{
+  font-weight: 600;
+  font-size:19px;
+}
+
+.top-class{
+  display:grid;
+  grid-template-columns: 35% 17%;
+}
