@@ -3,7 +3,7 @@
 }
 
 p{
-  font-size:13px;
+  font-size:16px;
 }
 
 body{
@@ -70,10 +70,45 @@ h6{
 
 .stat-class{
   font-weight: 600;
-  font-size:19px;
+  font-size:20px;
+}
+
+main{
+  display: grid;
+  grid-template-columns:70% 20%;
+  /* column-gap:30px; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.testimonal-class{
+  display:grid;
+  grid-template-rows:1fr 1fr;
+  row-gap:30px;
 }
 
 .top-class{
   display:grid;
-  grid-template-columns: 35% 17%;
+  grid-template-columns:60% 30%;
+  column-gap:30px;
+}
+
+.bottom-class{
+  display:grid;
+  grid-template-columns:30% 60%;
+  column-gap:30px;
+}
+
+@media screen and (max-width: 768px){
+  main{
+    grid-template-columns:1fr;
+  }
+
+  .top-class{
+    grid-template-columns:1fr;
+  }
+
+  .bottom-class{
+    grid-template-columns:1fr;
+  }
 }
