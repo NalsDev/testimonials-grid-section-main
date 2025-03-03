@@ -76,8 +76,6 @@ h6{
 main{
   display: grid;
   grid-template-columns:70% 20%;
-  /* column-gap:30px; */
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -102,13 +100,20 @@ main{
 @media screen and (max-width: 768px){
   main{
     grid-template-columns:1fr;
+    row-gap:30px;
   }
 
   .top-class{
     grid-template-columns:1fr;
+    row-gap:30px;
   }
 
   .bottom-class{
     grid-template-columns:1fr;
+    row-gap:30px;
+  }
+
+  body{
+    padding:30px;
   }
 }
